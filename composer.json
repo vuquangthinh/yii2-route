@@ -1,0 +1,21 @@
+{
+    "name": "quangthinh/yii2-route",
+    "description": "Dynamic Route Management Helper",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vu QuangThinh",
+            "email": "quangthinh.dico@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "quangthinh/yii2-common": "^1.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "quangthinh\\yii\\route\\": ""
+        }
+    }
+}
