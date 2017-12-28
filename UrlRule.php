@@ -13,7 +13,7 @@ use quangthinh\yii\route\models\Route;
 use Yii;
 use yii\base\Behavior;
 use yii\base\InvalidConfigException;
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\db\Connection;
 use yii\db\Query;
 use yii\helpers\Json;
@@ -27,7 +27,7 @@ use yii\web\UrlRuleInterface;
  *
  * Chú ý không nên sử dụng kèm với một số CompositeUrlRule khác
  */
-class UrlRule extends Object implements UrlRuleInterface
+class UrlRule extends BaseObject implements UrlRuleInterface
 {
     public $routeClass = 'quangthinh\yii\route\models\Route';
 
